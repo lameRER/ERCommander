@@ -3,7 +3,7 @@ namespace ERCommander
     /// <summary>
     /// Элемент отображэения файлового мендежера
     /// </summary>
-    public class BaseItem : Item
+    public class BaseItem : IBaseItem
     {
         public string MainPath { get; set; }
         public string Name { get; set; }
