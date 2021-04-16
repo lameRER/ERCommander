@@ -80,6 +80,9 @@ namespace ERCommander
                         case ConsoleKey.Enter:
                             manager.SelectOpen();
                             break;
+                        case ConsoleKey.Tab:
+                            manager.TabNull();
+                            break;
                         case ConsoleKey.Delete:
                             if (DeleteRequest(manager.Selected))
                                 manager.Delete();
